@@ -9,22 +9,9 @@ def playerinput():
     else:
         print ("Please Enter Valid Input")
 
-#Fog: Display 0s around player or make view smaller 
-def loadMaze():
-    readIt = open('level2.txt', 'r')
-    readLines = readIt.readlines()
-    global mazeList
-    mazeList = [list(i.strip()) for i in readLines]
+thing = open('level2.txt', 'r')
+grid = thing.readlines()
 
-mazeprint = ''
-
-def showMaze():
-    for i in mazeList:
-        mazeprint = ''
-    for j in i:
-        mazeprint = mazeprint + j
-    print(mazeprint)
-    print('\n')
 
 
 def haskey(a):
@@ -162,7 +149,7 @@ def game(board1):
         print("You Have " + str(moves) + " Remaining Moves")
     print("You Have Run Out Of Moves")
     
-game(mazeprint)
+game(grid)
 
 
 
