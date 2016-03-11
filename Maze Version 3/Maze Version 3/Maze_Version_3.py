@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Feb  9 14:22:19 2016
-
-@author: cbmckayepp
-"""
+import csv
 
 key = False
 
@@ -15,13 +10,22 @@ def playerinput():
         print ("Please Enter Valid Input")
 
 #Fog: Display 0s around player or make view smaller 
-x = open("level1.txt")
+def loadMaze():
+    readIt = open('level2.txt', 'r')
+    readLines = readIt.readlines()
+    global mazeList
+    mazeList = [list(i.strip()) for i in readLines]
 
-def reader(x):
-    for line in x:
-        print(line)
+mazeprint = ''
 
-grid = reader(x)
+def showMaze():
+    for i in mazeList:
+        mazeprint = ''
+    for j in i:
+        mazeprint = mazeprint + j
+    print(mazeprint)
+    print('\n')
+
 
 def haskey(a):
     global key
@@ -158,7 +162,7 @@ def game(board1):
         print("You Have " + str(moves) + " Remaining Moves")
     print("You Have Run Out Of Moves")
     
-game(grid)
+game(mazeprint)
 
 
 
