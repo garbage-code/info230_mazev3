@@ -2,8 +2,7 @@
 up = “w”
 down = “s”
 left = “a”
-right = “d”
-
+right = "d"
 #NUMBER OF MOVES
 moves_num = 25
 
