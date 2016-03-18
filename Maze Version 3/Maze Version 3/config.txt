@@ -1,0 +1,13 @@
+#KEY MAPPINGS
+up = “w”
+down = “s”
+left = “a”
+right = “d”
+
+#NUMBER OF MOVES
+moves_num = 25
+
+#MAP LOCATIONS
+map_1 = "level1.txt"
+map_2 = "level2.txt"
+map_3 = "level3.txt"
