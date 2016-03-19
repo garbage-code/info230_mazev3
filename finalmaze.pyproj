@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{013dde8f-a344-4e76-adc6-4dbd001ad7c3}</ProjectGuid>
     <ProjectHome>Archive\Maze Version 3\Maze Version 3\</ProjectHome>
-    <StartupFile>Maze Version 3.py</StartupFile>
+    <StartupFile>maze_noconf.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
