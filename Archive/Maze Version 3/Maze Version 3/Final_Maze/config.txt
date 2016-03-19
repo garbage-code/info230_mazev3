@@ -1,13 +1,8 @@
 #KEY MAPPINGS
-up = "w"
-down = “s”
-left = “a”
-right = "d"
-
-#NUMBER OF MOVES
-moves = 2574
-\n#THIS IS A FILLER COMMENT! NO ONE CARES ABOUT WHAT'S HERE!
-#MAP LOCATIONS
+up = "8"down = “s”
+down = "2"right = "d"
+left = "4"#NUMBER OF MOVES
+right = "6"#MAP LOCATIONS
 map_1 = level1.txt
 map_2 = level2.txt
 map_3 = level3.txt
